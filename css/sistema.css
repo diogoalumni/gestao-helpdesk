@@ -1463,7 +1463,7 @@ abbr {
 
 .troubleshootercategorytitle {
 	padding: 0 0 3px 25px;
-	background: url("http://quitanda.besaba.com/__swift/themes/client/images/icon_smallarrow.png") no-repeat 0 0;
+	background: url("../images/icon_smallarrow.png") no-repeat 0 0;
 	font-size: 18px;
 }
 
@@ -1620,7 +1620,7 @@ abbr {
 }
 
 .kbarticlelist .kbarticlelistitem,.kbarticlecategorylistitem {
-	background: url("http://quitanda.besaba.com/__swift/themes/client/images/icon_kbarticlesmall.png") no-repeat 0 0;
+	background: url("../images/icon_kbarticlesmall.png") no-repeat 0 0;
 	padding: 0 0 0 20px;
 	margin-top: 9px;
 	font-size: 14px;
@@ -1746,7 +1746,7 @@ abbr {
 }
 
 .commentchild {
-	background: url("http://quitanda.besaba.com/__swift/themes/client/images/downarrow.gif") no-repeat 0px 22px;
+	background: url("../images/downarrow.gif") no-repeat 0px 22px;
 	padding-left: 18px;
 }
 
@@ -2011,7 +2011,7 @@ textarea[name="comments"] {
 	margin: 0 4px 0 0px;
 	width: 18px;
 	display: inline-block;
-	background: url("http://quitanda.besaba.com/__swift/themes/client/images/icon_trash.gif") no-repeat 0px 1px;
+	background: url("../images/icon_trash.gif") no-repeat 0px 1px;
 	height: 18px;
 	cursor: pointer;
 }
@@ -2103,7 +2103,7 @@ form .zebraodd, form .zebraeven {
 }
 
 .commentchild {
-	background: url("http://quitanda.besaba.com/__swift/themes/client/images/downarrow.gif") no-repeat 0px 12px !important;
+	background: url("../images/downarrow.gif") no-repeat 0px 12px !important;
 	padding-left: 18px !important;
 	width: 40px;
 }
@@ -2176,7 +2176,7 @@ input[name=captcha] {
 
 .addplus {
 	display: inline;
-	background: url(http://quitanda.besaba.com/__swift/themes/client/images/icon_add.gif) no-repeat 0 0;
+	background: url(../images/icon_add.gif) no-repeat 0 0;
 	padding: 0 0 0 20px;
 }
 
@@ -2206,7 +2206,7 @@ input[name=captcha] {
 }
 
 .defaultwidget {
-	background-image: url(http://quitanda.besaba.com/__swift/themes/client/images/space.gif);
+	background-image: url(../images/space.gif);
 }
 
 .widgetrow a {
@@ -2228,7 +2228,7 @@ input[name=captcha] {
 	border-radius: 4px;
 	line-height: 14px;
 	margin: 0 6px 6px 0;
-	font-size: 0.83em;
+	font-size: 1.03em;
 	font-family: "segoe ui","helvetica neue", arial, helvetica, sans-serif;
 }
 
@@ -2371,28 +2371,28 @@ input[name=captcha] {
 }
 
 #leftloginbox .maprofile {
-	background: #fff url(http://quitanda.besaba.com/__swift/themes/client/images/icon_myprofile.png) no-repeat 14px 50%;
+	background: #fff url(../images/icon_myprofile.png) no-repeat 14px 50%;
 }
 
 #leftloginbox .maorganization {
-	background: #fff url(http://quitanda.besaba.com/__swift/themes/client/images/icon_userorganization.png) no-repeat 14px 50%;
+	background: #fff url(../icon_userorganization.png) no-repeat 14px 50%;
 }
 
 #leftloginbox .machangepassword {
-	background: #fff url(http://quitanda.besaba.com/__swift/themes/client/images/icon_lock.png) no-repeat 15px 50%;
+	background: #fff url(../images/icon_lock.png) no-repeat 15px 50%;
 }
 
 #leftloginbox .mapreferences {
-	background: #fff url(http://quitanda.besaba.com/__swift/themes/client/images/icon_preferences.png) no-repeat 14px 50%;
+	background: #fff url(../images/icon_preferences.png) no-repeat 14px 50%;
 }
 
 #leftloginbox .mabilling {
-	background: #fff url(http://quitanda.besaba.com/__swift/themes/client/images/icon_creditcards.png) no-repeat 14px 50%;
+	background: #fff url(../images/icon_creditcards.png) no-repeat 14px 50%;
 }
 
 #leftloginbox .malogout {
 	border-bottom: none!important;
-	background: #fff url(http://quitanda.besaba.com/__swift/themes/client/images/icon_logout.png) no-repeat 14px 50%;
+	background: #fff url(../images/icon_logout.png) no-repeat 14px 50%;
 }
 
 input.loginstyled, input.loginstyledlabel,
@@ -2991,19 +2991,19 @@ a#chattoptoolbarcloselink:hover {
 }
 
 a#chattoptoolbarprintlink {
-	background-image: url(http://quitanda.besaba.com/__swift/themes/client/images/icon_widget_print.gif);
+	background-image: url(../images/icon_widget_print.gif);
 }
 
 a#chattoptoolbaremaillink {
-	background-image: url(http://quitanda.besaba.com/__swift/themes/client/images/icon_widget_email.gif);
+	background-image: url(../images/icon_widget_email.gif);
 }
 
 a#chattoptoolbarsoundonlink {
-	background-image: url(http://quitanda.besaba.com/__swift/themes/client/images/icon_widget_soundon.gif);
+	background-image: url(../images/icon_widget_soundon.gif);
 }
 
 a#chattoptoolbarsoundofflink {
-	background-image: url(http://quitanda.besaba.com/__swift/themes/client/images/icon_widget_soundoff.gif);
+	background-image: url(../images/icon_widget_soundoff.gif);
 }
 
 li#chattoptoolbarprint {
@@ -3249,7 +3249,7 @@ li#chattoptoolbarsoundoff {
 	border-top: 1px solid #ccc;
 	border-bottom: 1px solid #ccc;
 	padding-left: 20px;
-	background: #fff url(http://quitanda.besaba.com/__swift/themes/client/images/icon_pushurl.png) no-repeat left;
+	background: #fff url(../images/icon_pushurl.png) no-repeat left;
 	margin-top: 8px;
 	margin-bottom: 8px;
 	padding-top: 6px;
@@ -3262,7 +3262,7 @@ li#chattoptoolbarsoundoff {
 	border-top: 1px solid #ccc;
 	border-bottom: 1px solid #ccc;
 	padding-left: 20px;
-	background: #fff url(http://quitanda.besaba.com/__swift/themes/client/images/icon_pushimage.png) no-repeat left;
+	background: #fff url(../images/icon_pushimage.png) no-repeat left;
 	margin-top: 8px;
 	margin-bottom: 8px;
 	padding-top: 6px;
@@ -3292,7 +3292,7 @@ li#chattoptoolbarsoundoff {
 	border-top: 1px solid #ccc;
 	border-bottom: 1px solid #ccc;
 	padding-left: 20px;
-	background: #fff url(http://quitanda.besaba.com/__swift/themes/client/images/icon_onsite.gif) no-repeat 0 8px;
+	background: #fff url(../images/icon_onsite.gif) no-repeat 0 8px;
 	margin-top: 8px;
 	margin-bottom: 8px;
 	padding-top: 6px;
@@ -3311,7 +3311,7 @@ li#chattoptoolbarsoundoff {
 
 .chatonsitemessagewin {
 	padding-left: 34px;
-	background: #fff url("http://quitanda.besaba.com/__swift/themes/client/images/icon_windows.gif") no-repeat left;
+	background: #fff url("../images/icon_windows.gif") no-repeat left;
 	margin-top: 8px;
 	margin-bottom: 8px;
 	padding-top: 6px;
@@ -3327,7 +3327,7 @@ li#chattoptoolbarsoundoff {
 
 #imagezoomcontainer {width:100%; overflow:hidden;}
 #imagezoomcontainer a {position:relative; float:left; margin:5px;}
-#imagezoomcontainer a span { display:block; background-image:URL('http://quitanda.besaba.com/__swift/themes/client/images/icon_zoom.png'); background-repeat:no-repeat; width:16px; height:16px; position:absolute; bottom:8px; right:8px;}
+#imagezoomcontainer a span { display:block; background-image:URL('../images/icon_zoom.png'); background-repeat:no-repeat; width:16px; height:16px; position:absolute; bottom:8px; right:8px;}
 #imagezoomcontainer img { border: solid 1px #999; padding:5px;}
 
 /* @end */
@@ -3350,11 +3350,11 @@ div.rating-cancel, div.star-rating {
 }
 
 div.rating-cancel, div.rating-cancel a {
-	background: url('http://quitanda.besaba.com/__swift/themes/client/images/icon_ratingdelete.gif') no-repeat 0 -16px;
+	background: url('../images/icon_ratingdelete.gif') no-repeat 0 -16px;
 }
 
 div.star-rating, div.star-rating a {
-	background: url('http://quitanda.besaba.com/__swift/themes/client/images/icon_ratingstar.gif') no-repeat 0 0px;
+	background: url('../images/icon_ratingstar.gif') no-repeat 0 0px;
 }
 
 div.rating-cancel a, div.star-rating a {
@@ -3471,7 +3471,7 @@ div.star-rating {
 }
 
 .ticketsubdepartment {
-	background: url('http://quitanda.besaba.com/__swift/themes/client/images/linkdownarrow.gif') no-repeat 4px 0px;
+	background: url('../images/linkdownarrow.gif') no-repeat 4px 0px;
 	padding: 0 0 0 20px;
 	margin-left: 10px;
 }
@@ -3705,7 +3705,7 @@ div.star-rating {
 	background-color: #ededef;
 	margin: 0 0 20px 0;
 	border: 1px solid #ddd;
-	background-image: url('http://quitanda.besaba.com/__swift/themes/client/images/ticket_bg.gif');
+	background-image: url('../images/ticket_bg.gif');
 	background-position: 234px 0;
 	background-repeat: repeat-y;
 	border: 1px solid #ddd;
@@ -3802,7 +3802,7 @@ div.star-rating {
 
 .ticketbarquote {
 	float: right;
-	background: url('http://quitanda.besaba.com/__swift/themes/client/images/icon_quote.png') no-repeat;
+	background: url('../images/icon_quote.png') no-repeat;
 	height: 16px;
 	width: 16px;
 	cursor: pointer;
@@ -3862,11 +3862,11 @@ div.star-rating {
 }
 
 .ticketsearchcontainer {
-	background: url('http://quitanda.besaba.com/__swift/themes/client/images/icon_ticket.png') no-repeat 0px 1px;
+	background: url('../images/icon_ticket.png') no-repeat 0px 1px;
 }
 
 .kbsearchcontainer {
-	background: url('http://quitanda.besaba.com/__swift/themes/client/images/icon_knowledgebase.png') no-repeat 0px 1px;
+	background: url('../images/icon_knowledgebase.png') no-repeat 0px 1px;
 }
 
 .ticketsearch, .kbsearch {
@@ -3949,7 +3949,7 @@ div.star-rating {
   color:#4e4e4e;
   text-decoration:none;
   font-size:14px;
-  background:URL('http://quitanda.besaba.com/__swift/themes/client/images/icon_error.png') no-repeat 4px 2px;
+  background:URL('../images/icon_error.png') no-repeat 4px 2px;
   border-radius:5px 5px 5px 5px;
   box-shadow:0 1px 1px #ffafaf;
 }
@@ -3963,7 +3963,7 @@ div.star-rating {
 }
 .centerheader .splash {
   float:right;
-  background:URL('http://quitanda.besaba.com/__swift/themes/client/images/onsite/onsite.gif') no-repeat;
+  
   width:220px;
   height:180px;
 }
