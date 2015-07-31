@@ -697,7 +697,7 @@ button.ui-button::-moz-focus-inner {
 }
 .ui-tabs .ui-tabs-hide { display:none !important; }
 #ui-datepicker-div {
-  DISPLAY:none;
+  display:none;
   background-color:#fff;
   border:1px solid #ddd;
   box-shadow:0px 1px 3px rgba(0,0,0,0.1);
@@ -2161,8 +2161,7 @@ input[name=captcha] {
 }
 
 .irsdesc {
-	magin-bottom: 6px;
-	font-size: ;
+    margin-bottom: 6px
 }
 
 .irshr {
@@ -2468,7 +2467,6 @@ input.emailstyled, input.emailstyledlabel {
 	line-height: 140%;
 	background-color: transparent;
 	font-size: 14px;
-	color: ;
 }
 
 .leftnavboxcontent a:last-child {
@@ -3918,12 +3916,12 @@ div.star-rating {
 /* css_* Templates */
 .lightbluelink:visited {
   color:#277dca;
-  TEXT-DECORATION:none;
+  text-decoration: none;
   outline:none;
 }
 .lightbluelink:hover {
-  COLOR:red !important;
-  TEXT-DECORATION:none;
+  color: red!important;
+  text-decoration: none;
   outline:none;
 }
 .lightbluelink {
@@ -4022,7 +4020,7 @@ div.star-rating {
 .tileshr {
   margin-bottom:6px;
   height:1px;
-  BORDER:none;
+  border: none;
   color:#cfcfcf;
   background-color:#cfcfcf;
 }
