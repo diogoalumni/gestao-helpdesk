@@ -5,13 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Base de Conhecimento</title>
     <meta http-equiv="X-Frame-Options" content="SAMEORIGIN" />
-    <link rel="icon" href="http://quitanda.besaba.com/favicon.ico" type="image/x-icon"/>
-    <link rel="alternate" type="application/rss+xml" title="RSS" href="http://quitanda.besaba.com/rss/index.php?/News/Feed" />
+    <link rel="icon" href="/" type="image/x-icon"/>
     <link rel="stylesheet" type="text/css" media="all" href="css/sistema.css" />
-    <script type="text/javascript" src="http://quitanda.besaba.com/index.php?/Core/Default/Compressor/js"></script>
-    <script language="Javascript" type="text/javascript">
-        SWIFT.Setup('/knowledgebase/list/Index/', {"basename":"http:\/\/quitanda.besaba.com\/index.php?","interfacepath":"http:\/\/quitanda.besaba.com\/","swiftpath":"http:\/\/quitanda.besaba.com\/","ip":false,"themepath":"http:\/\/quitanda.besaba.com\/__swift\/themes\/client\/","themepathinterface":"http:\/\/quitanda.besaba.com\/__swift\/themes\/client\/","themepathglobal":"http:\/\/quitanda.besaba.com\/__swift\/themes\/__global\/","version":"4.63.2.4559","product":"Fusion"});
-    </script>
+    <script type="text/javascript" src="js/js.js"></script>
   </head>
 <body class="bodymain">
 <div id="main">
@@ -25,8 +21,8 @@
         <div class="innerwrapper">
             <ul id="toptoolbarlinklist">
                 <li><a class="toptoolbarlink" href="dashboard.php">Página Principal</a></li>
-                <li><a class="toptoolbarlink" href="http://quitanda.besaba.com/index.php?/Tickets/Submit">Criar Ticket</a></li>
-                <li class="current"><a class="toptoolbarlink" href="base-conhecimento.php">Base de Conhecimento</a></li>
+                <li class="current"><a class="toptoolbarlink" href="criar-ticket.php">Criar Ticket</a></li>
+                <li><a class="toptoolbarlink" href="base-conhecimento.php">Base de Conhecimento</a></li>
             </ul>
         </div>
     </div>
@@ -86,14 +82,34 @@
             <!-- BEGIN DIALOG PROCESSING -->
 
             <div class="boxcontainer">
-                <div class="boxcontainerlabel">
-                    Base de Conhecimento  
-                </div>
+                <div class="boxcontainerlabel">Criar Ticket</div>
 
                 <div class="boxcontainercontent">
-                    <div class="infotextcontainer">
-                        Não há informações disponíveis neste modo de exibição
-                    </div>
+                    Se você não puder encontrar uma solução para seu problema em nossa Base de Conhecimento, você pode enviar um ticket selecionando o departamento desejado.<br><br>
+                    <table class="hlineheader"
+                           <tbody>
+                            <tr>
+                                <th rowspan="2" nowrap="">Departamentos</th>
+                                <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td class="hlinelower">&nbsp;</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <form action="novo-ticket.php" method="POST">
+                    <table width="100%" border="0" cellspacing="1" cellpadding="4">
+                        <tbody>
+                            <tr>
+                                <td width="16" align="left" valign="middle" class="zebraodd"><input type="radio" name="departmentid" onclick="javascript: ToggleTicketSubDepartments('1');" value="1" id="department_1" checked=""></td>
+                                <td><label for="department_1">General</label></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                    <br>
+                    <div class="subcontent"><input class="rebuttonwide2" value="Próximo »" type="submit" name="button"></div>
+                    </form>
                 </div>
             </div>
             

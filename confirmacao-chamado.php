@@ -5,13 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Base de Conhecimento</title>
     <meta http-equiv="X-Frame-Options" content="SAMEORIGIN" />
-    <link rel="icon" href="http://quitanda.besaba.com/favicon.ico" type="image/x-icon"/>
-    <link rel="alternate" type="application/rss+xml" title="RSS" href="http://quitanda.besaba.com/rss/index.php?/News/Feed" />
+    <link rel="icon" href="/" type="image/x-icon"/>
     <link rel="stylesheet" type="text/css" media="all" href="css/sistema.css" />
-    <script type="text/javascript" src="http://quitanda.besaba.com/index.php?/Core/Default/Compressor/js"></script>
-    <script language="Javascript" type="text/javascript">
-        SWIFT.Setup('/knowledgebase/list/Index/', {"basename":"http:\/\/quitanda.besaba.com\/index.php?","interfacepath":"http:\/\/quitanda.besaba.com\/","swiftpath":"http:\/\/quitanda.besaba.com\/","ip":false,"themepath":"http:\/\/quitanda.besaba.com\/__swift\/themes\/client\/","themepathinterface":"http:\/\/quitanda.besaba.com\/__swift\/themes\/client\/","themepathglobal":"http:\/\/quitanda.besaba.com\/__swift\/themes\/__global\/","version":"4.63.2.4559","product":"Fusion"});
-    </script>
+    <script type="text/javascript" src="js/js.js"></script>
   </head>
 <body class="bodymain">
 <div id="main">
@@ -25,8 +21,8 @@
         <div class="innerwrapper">
             <ul id="toptoolbarlinklist">
                 <li><a class="toptoolbarlink" href="dashboard.php">Página Principal</a></li>
-                <li><a class="toptoolbarlink" href="http://quitanda.besaba.com/index.php?/Tickets/Submit">Criar Ticket</a></li>
-                <li class="current"><a class="toptoolbarlink" href="base-conhecimento.php">Base de Conhecimento</a></li>
+                <li class="current"><a class="toptoolbarlink" href="criar-ticket.php">Criar Ticket</a></li>
+                <li><a class="toptoolbarlink" href="base-conhecimento.php">Base de Conhecimento</a></li>
             </ul>
         </div>
     </div>
@@ -86,17 +82,67 @@
             <!-- BEGIN DIALOG PROCESSING -->
 
             <div class="boxcontainer">
-                <div class="boxcontainerlabel">
-                    Base de Conhecimento  
-                </div>
+                <div class="boxcontainerlabel">Criar Ticket</div>
 
                 <div class="boxcontainercontent">
-                    <div class="infotextcontainer">
-                        Não há informações disponíveis neste modo de exibição
-                    </div>
+                    Recebemos sua solicitação e entraremos em contato com você brevemente. Você pode acessar o Suporte ao Cliente ou verificar sua caixa de correio para mais atualizações.<br><br>
+                    <table class="hlineheader">
+                        <tbody>
+                            <tr>
+                                <th rowspan="2" nowrap="">Informações gerais</th>
+                                <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td class="hlinelower">&nbsp;</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table width="100%" border="0" cellspacing="1" cellpadding="4">
+                        <tbody>
+                            <tr>
+                                <td width="200" align="left" valign="middle" class="zebraodd">ID Ticket</td>
+                                <td>#ZQF-429-67041</td>
+                            </tr>
+                            <tr>
+                                <td align="left" valign="middle" class="zebraodd">Nome Completo</td>
+                                <td>Diogo</td>
+                            </tr>
+                            <tr>
+                                <td align="left" valign="middle" class="zebraodd">Email</td>
+                                <td>diogo@teste.com.br</td>
+                            </tr>
+                            <tr>
+                                <td align="left" valign="middle" class="zebraodd">Tipo</td>
+                                <td>Issue</td>
+                            </tr>
+                            <tr>
+                                <td align="left" valign="middle" class="zebraodd">Prioridade</td>
+                                <td>Normal</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <br>
+                    <table class="hlineheader">
+                        <tbody>
+                            <tr>
+                                <th rowspan="2" nowrap="">Assunto:teste de chamado</th>
+                                <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td class="hlinelower">&nbsp;</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table width="100%" border="0" cellspacing="1" cellpadding="4">
+                        <tbody>
+                            <tr>
+                                <td align="left" valign="top">teste de chamado sendo aberto</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <br>
                 </div>
             </div>
-            
         </div>
         
         <div id="bottomfooter" class="bottomfooterpadding">
