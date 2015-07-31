@@ -3,18 +3,14 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Minas Gerais - STM Support Desk</title>
+    <title>Alumni Help-Desk</title>
     <meta name="KEYWORDS" content="Home" />
-    <!-- <meta name="description" content="DISPLAY SOME KB STUFF OR NEWS HERE" /> -->
     <meta name="robots" content="index,follow" />
-    <meta http-equiv="X-Frame-Options" content="SAMEORIGIN" />
-    <link rel="icon" href="http://quitanda.besaba.com/favicon.ico" type="image/x-icon"/>
+    <link rel="icon" href="/" type="image/x-icon"/>
     	
     <link rel="stylesheet" type="text/css" media="all" href="css/sistema.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="css/fontello.css" />
     <script type="text/javascript" src="http://quitanda.besaba.com/index.php?/Core/Default/Compressor/js"></script>
-    <script language="Javascript" type="text/javascript">
-        SWIFT.Setup('/core/default/Index/', {"basename":"http:\/\/quitanda.besaba.com\/index.php?","interfacepath":"http:\/\/quitanda.besaba.com\/","swiftpath":"http:\/\/quitanda.besaba.com\/","ip":false,"themepath":"http:\/\/quitanda.besaba.com\/__swift\/themes\/client\/","themepathinterface":"http:\/\/quitanda.besaba.com\/__swift\/themes\/client\/","themepathglobal":"http:\/\/quitanda.besaba.com\/__swift\/themes\/__global\/","version":"4.63.2.4559","product":"Fusion"});
-    </script>
   </head>
 
 <body class="bodymain">
@@ -69,38 +65,37 @@
 
 
         <div id="maincorecontent">
-
 			<!--
 			<div id="breadcrumbbar">
 				<span class="breadcrumb lastcrumb">Página Principal</span>
 			</div>
 			-->
-
-            
-
 			<!-- BEGIN DIALOG PROCESSING -->
-			
-			<div id="corewidgetbox"><div class="widgetrow"><span onclick="javascript: window.location.href='http://quitanda.besaba.com/index.php?/Base/UserRegistration/Register';"><a href="http://quitanda.besaba.com/index.php?/Base/UserRegistration/Register" class="widgetrowitem defaultwidget" style="background-image: URL('http://quitanda.besaba.com/__swift/themes/client/images/icon_widget_register.png');"><span class="widgetitemtitle">Registrar</span></a></span><span onclick="javascript: window.location.href='http://quitanda.besaba.com/index.php?/Tickets/Submit';"><a href="http://quitanda.besaba.com/index.php?/Tickets/Submit" class="widgetrowitem defaultwidget" style="background-image: URL('http://quitanda.besaba.com/__swift/themes/client/images/icon_widget_submitticket.png');"><span class="widgetitemtitle">Criar Ticket</span></a></span><span onclick="javascript: window.location.href='http://quitanda.besaba.com/index.php?/Knowledgebase/List';"><a href="http://quitanda.besaba.com/index.php?/Knowledgebase/List" class="widgetrowitem defaultwidget" style="background-image: URL('http://quitanda.besaba.com/__swift/themes/client/images/icon_widget_knowledgebase.png');"><span class="widgetitemtitle">Base de Conhecimento</span></a></span><span onclick="javascript: window.location.href='http://quitanda.besaba.com/index.php?/News/List';"><a href="http://quitanda.besaba.com/index.php?/News/List" class="widgetrowitem defaultwidget" style="background-image: URL('http://quitanda.besaba.com/__swift/themes/client/images/icon_widget_news.png');"><span class="widgetitemtitle">Notícias</span></a></span><span onclick="javascript: window.location.href='http://quitanda.besaba.com/index.php?/Troubleshooter/List';"><a href="http://quitanda.besaba.com/index.php?/Troubleshooter/List" class="widgetrowitem defaultwidget" style="background-image: URL('http://quitanda.besaba.com/__swift/themes/client/images/icon_widget_troubleshooter.png');"><span class="widgetitemtitle">Solução de Problemas</span></a></span></div></div>
-						<div class="boxcontainer">
-			<div class="boxcontainerlabel">
-                            
-                            Últimas Atualizações
+			<div id="corewidgetbox">
+                            <div class="widgetrow">
+                                <span><a href="/" class="widgetrowitem defaultwidget"><i class="demo-icon icon-group"></i>Criar usuario</a></span>
+                                <span><a href="/" class="widgetrowitem defaultwidget"><i class="demo-icon icon-doc-new"></i>Criar Ticket</a></span>
+                                <span><a href="/" class="widgetrowitem defaultwidget"><i class="demo-icon icon-lightbulb"></i>base de Conhecimento</a></span>
+                                <span><a href="/" class="widgetrowitem defaultwidget"><i class="demo-icon icon-doc"></i>Noticias</a></span>
+                                <span><a href="/" class="widgetrowitem defaultwidget"><i class="demo-icon icon-flag"></i>Solução de problemas</a></span>
+                            </div>
                         </div>
-
-			<div class="boxcontainercontent">
-				
-								<div class="infotextcontainer">
-				Não há informações disponíveis neste modo de exibição
-				</div>
-				
+			<div class="boxcontainer">
+                            <div class="boxcontainerlabel">
+                                Últimas Atualizações
+                            </div>
+                            <div class="boxcontainercontent">
+                                <div class="infotextcontainer">
+                                    Não há informações disponíveis neste modo de exibição
+                                </div>
+                            </div>
 			</div>
-			</div>
-			<script type="text/javascript"> $(function(){ $('.dialogerror, .dialoginfo, .dialogalert').fadeIn('slow');});</script></div>
+		<script type="text/javascript"> $(function(){ $('.dialogerror, .dialoginfo, .dialogalert').fadeIn('slow');});</script></div>
 		<script type="text/javascript" >try {if (top.location.hostname != self.location.hostname) { throw 1; }} catch (e) { top.location.href = self.location.href; }</script>
       
                 <div id="bottomfooter" class="bottomfooterpadding">
       
-      </div>
+                </div>
     </div>
 
   </div>

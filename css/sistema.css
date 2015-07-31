@@ -1,7 +1,14 @@
-/* CSS - CORE (20 Jan 2015 09:27:57 PM) */
+@font-face {
+      font-family: 'fontello';
+      src: url('./font/fontello.eot?89980521');
+      src: url('./font/fontello.eot?89980521#iefix') format('embedded-opentype'),
+           url('./font/fontello.woff?89980521') format('woff'),
+           url('./font/fontello.ttf?89980521') format('truetype'),
+           url('./font/fontello.svg?89980521#fontello') format('svg');
+      font-weight: normal;
+      font-style: normal;
+    }
 
-
-/* ./__swift/javascript/__global/core/jqueryui/custom-theme/jquery-ui-1.7.2.custom.css */
 .ui-helper-hidden { display:none; }
 .ui-helper-hidden-accessible {
   position:absolute;
@@ -2206,12 +2213,12 @@ input[name=captcha] {
 	background-repeat: no-repeat;
 	background-position: 50% 12px;
 	font-size: 13px;
-	padding: 55px 2px 10px 2px;
+	padding: 15px 2px 10px 2px;
 	font-weight: normal;
 	text-align: center;
 	width: 115px;
         float: left;
-        height: 26px;
+        height: 89px;
 	display: block;
 	cursor: pointer;
 	clear: none;
@@ -4700,4 +4707,10 @@ x:-o-prefocus, .qtip .qtip-tip { visibility:hidden; }
 .swiftpopupoutlinehover {
   border:1px solid #ddd;
   z-index:10010;
+}
+/*MEU codigo*/
+.demo-icon{
+    float: left;
+    font-size: 58px;
+    margin: 0 0 6px 17px;
 }
