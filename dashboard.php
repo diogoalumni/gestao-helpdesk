@@ -65,11 +65,11 @@
                     <!-- BEGIN DIALOG PROCESSING -->
                     <div id="corewidgetbox">
                         <div class="widgetrow">
-                            <span><a href="/" class="widgetrowitem defaultwidget"><i class="demo-icon icon-group"></i>Criar usuario</a></span>
+                            <span><a href="/" class="widgetrowitem defaultwidget"><i class="demo-icon icon-group"></i>Criar Usuario</a></span>
                             <span><a href="criar-ticket.php" class="widgetrowitem defaultwidget"><i class="demo-icon icon-doc-new"></i>Criar Ticket</a></span>
-                            <span><a href="base-conhecimento.php" class="widgetrowitem defaultwidget"><i class="demo-icon icon-lightbulb"></i>base de Conhecimento</a></span>
+                            <span><a href="base-conhecimento.php" class="widgetrowitem defaultwidget"><i class="demo-icon icon-lightbulb"></i>Base de Conhecimento</a></span>
                             <span><a href="/" class="widgetrowitem defaultwidget"><i class="demo-icon icon-doc"></i>Noticias</a></span>
-                            <span><a href="/" class="widgetrowitem defaultwidget"><i class="demo-icon icon-flag"></i>Solução de problemas</a></span>
+                            <span><a href="/" class="widgetrowitem defaultwidget"><i class="demo-icon icon-flag"></i>Solução de Problemas</a></span>
                         </div>
                     </div>
                     <div class="boxcontainer">
