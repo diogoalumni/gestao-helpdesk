@@ -3,7 +3,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Base de Conhecimento - STM Support Desk</title>
+    <title>Base de Conhecimento</title>
     <meta http-equiv="X-Frame-Options" content="SAMEORIGIN" />
     <link rel="icon" href="http://quitanda.besaba.com/favicon.ico" type="image/x-icon"/>
     <link rel="alternate" type="application/rss+xml" title="RSS" href="http://quitanda.besaba.com/rss/index.php?/News/Feed" />
